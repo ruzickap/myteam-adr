@@ -24,6 +24,7 @@ jobs:
         run: |
           npm install -g log4brains
           log4brains build --basePath "/${GITHUB_REPOSITORY#*/}"
+          touch .log4brains/out/.nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
