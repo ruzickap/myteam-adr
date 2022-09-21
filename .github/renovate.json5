@@ -1,21 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "branchPrefix": "renovate/",
-  "flux": {
-    "fileMatch": ["flux/.+\\.ya?ml$"]
-  },
-  // ignore individual fluxcd images
-  "ignoreDeps": [
-    "ghcr.io/fluxcd/helm-controller",
-    "ghcr.io/fluxcd/image-automation-controller",
-    "ghcr.io/fluxcd/image-reflector-controller",
-    "ghcr.io/fluxcd/kustomize-controller",
-    "ghcr.io/fluxcd/notification-controller",
-    "ghcr.io/fluxcd/source-controller"
-  ],
-  "kubernetes": {
-    "fileMatch": ["\\.ya?ml$"]
-  },
   "labels": ["renovate", "renovate/{{replace '.*/' '' depName}}", "renovate/{{updateType}}"],
   "packageRules": [
     {
@@ -41,12 +26,6 @@
       "ignoreTests": true,
       "schedule": ["on Sunday"],
     },
-
-    {
-      "description": "Ignore terraform-aws-eks-blueprints updates",
-      "matchPackageNames": ["github.com/aws-ia/terraform-aws-eks-blueprints"],
-      "automerge": false,
-    },
   ],
   "prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}",
   "concurrentRequestLimit": 20,
@@ -55,15 +34,10 @@
     {
       "fileMatch": [
         "^\\.github/workflows/.*\\.ya?ml$",
-        "^docs/src/part-.*\\.md$",
-        ".*\\.tfvars$",
         "README\\.md$",
-        "kustomization\\.yaml$",
       ],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)( versioning=(?<versioning>.+?))?( extractVersion=(?<extractVersion>.+?))?( registryUrl=(?<registryUrl>.+?))?\\s.*[=:]\\s*\"?(?<currentValue>.+?)\"?\\s",
-        // Renovate for GH releases like: https://github.com/cert-manager/cert-manager/releases/download/v1.9.0/cert-manager.crds.yaml located in kustomization.yaml
-        "# renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)( versioning=(?<versioning>.+?))?( extractVersion=(?<extractVersion>.+?))?\\s.*\\/releases\\/download\\/(?<currentValue>.+?)\\/.*",
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
       "extractVersionTemplate": "{{#if extractVersion}}{{{extractVersion}}}{{else}}^v?(?<version>.+)${{/if}}",
