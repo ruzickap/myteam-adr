@@ -1,0 +1,10 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "/l4b-static/adr-workflow.png"
+    },
+    {
+      "pattern": "yyyymmdd-xxx.md"
+    }
+  ]
+}

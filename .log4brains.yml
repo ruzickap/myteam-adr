@@ -1,0 +1,5 @@
+project:
+  name: MyTeam
+  tz: UTC
+  adrFolder: ./docs/adr
+  packages: []

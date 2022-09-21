@@ -1,2 +1,3 @@
 # myteam-adr
-rchitectural Decision Record (ADR) for MyTeam
+
+Architectural Decision Record (ADR) for MyTeam
