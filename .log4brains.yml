@@ -1,5 +1,5 @@
 project:
   name: MyTeam
   tz: UTC
-  adrFolder: ./docs/adr
+  adrFolder: ./docs/adr-log4brains
   packages: []
