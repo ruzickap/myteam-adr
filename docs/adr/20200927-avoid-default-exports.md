@@ -7,6 +7,8 @@
 
 We will avoid default exports in all our codebase, and use named exports instead.
 
+![Kubernetes logo](pics/Kubernetes.png "Kubernetes")
+
 ## Links
 
 - <https://humanwhocodes.com/blog/2019/01/stop-using-default-exports-javascript-module/>
