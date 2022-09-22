@@ -4,6 +4,8 @@ ADRs are automatically published to our Log4brains architecture knowledge base:
 
 🔗 **<https://ruzickap.github.io/myteam-adr/>**
 
+[![ADRs](https://ruzickap.github.io/myteam-adr/badge.svg)](https://ruzickap.github.io/myteam-adr/)
+
 Please use this link to browse them.
 
 ## Development

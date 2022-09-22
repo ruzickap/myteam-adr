@@ -1,10 +1,11 @@
 name: Publish Log4brains
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/publish-log4brains.yml
-      - docs/adr/**
+  # Disabled, because log4brains can not work with pictures
+  # push:
+  #   paths:
+  #     - .github/workflows/publish-log4brains.yml
+  #     - docs/adr/**
 
 jobs:
   build-and-publish:
