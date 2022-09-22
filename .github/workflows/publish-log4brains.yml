@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - .github/workflows/publish-log4brains.yml
-      - /docs/adr/**.md
+      - docs/adr/**
 
 jobs:
   build-and-publish:
