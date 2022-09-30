@@ -2,13 +2,15 @@
 
 ADRs are automatically published to our Log4brains architecture knowledge base:
 
-🔗 **<https://ruzickap.github.io/myteam-adr/>**
+## log4brains
 
-[![ADRs](https://ruzickap.github.io/myteam-adr/badge.svg)](https://ruzickap.github.io/myteam-adr/)
+🔗 **<https://ruzickap.github.io/myteam-adr/log4brains/>**
+
+[![ADRs](https://ruzickap.github.io/myteam-adr/log4brains/badge.svg)](https://ruzickap.github.io/myteam-adr/log4brains)
 
 Please use this link to browse them.
 
-## Development
+### Development
 
 If not already done, install Log4brains:
 
@@ -31,7 +33,7 @@ To create a new ADR interactively, run:
 log4brains adr new
 ```
 
-## More information
+### More information
 
 - [Log4brains documentation](https://github.com/thomvaill/log4brains/tree/master#readme)
 - [What is an ADR and why should you use them](https://github.com/thomvaill/log4brains/tree/master#-what-is-an-adr-and-why-should-you-use-them)
