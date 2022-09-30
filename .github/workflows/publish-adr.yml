@@ -1,11 +1,10 @@
-name: Publish Log4brains
+name: Publish ADR
 on:
   workflow_dispatch:
-  # Disabled, because log4brains can not work with pictures
-  # push:
-  #   paths:
-  #     - .github/workflows/publish-log4brains.yml
-  #     - docs/adr/**
+  push:
+    paths:
+      - .github/workflows/publish-adr.yml
+      - docs/**
 
 jobs:
   build-and-publish:
@@ -24,13 +23,13 @@ jobs:
       - name: Install and Build Log4brains
         run: |
           npm install -g log4brains
-          log4brains build --basePath "/${GITHUB_REPOSITORY#*/}"
-          touch .log4brains/out/.nojekyll
+          mkdir -pv gh-pages/log4brains
+          log4brains build --basePath "/${GITHUB_REPOSITORY#*/}/log4brains" --out gh-pages/log4brains
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .log4brains/out
+          publish_dir: gh-pages
           force_orphan: true
