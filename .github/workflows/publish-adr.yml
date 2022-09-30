@@ -26,6 +26,18 @@ jobs:
           mkdir -pv gh-pages/log4brains
           log4brains build --basePath "/${GITHUB_REPOSITORY#*/}/log4brains" --out gh-pages/log4brains
 
+      - name: Install and Build Log4brains
+        run: |
+          npm install -g log4brains
+          mkdir -pv gh-pages/log4brains
+          log4brains build --basePath "/${GITHUB_REPOSITORY#*/}/log4brains" --out gh-pages/log4brains
+
+      - name: Build MADR
+        uses: helaili/jekyll-action@v2
+        with:
+          build_dir: gh-pages/madr
+          build_only: true
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
