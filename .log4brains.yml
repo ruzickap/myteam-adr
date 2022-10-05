@@ -3,3 +3,5 @@ project:
   tz: UTC
   adrFolder: ./docs/adr-log4brains
   packages: []
+  repository:
+    viewFileUriPattern: /blob/main/%path
