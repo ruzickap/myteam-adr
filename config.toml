@@ -1,3 +1,4 @@
+baseURL = "https://ruzickap.github.io/myteam-adr/"
 theme = 'lynx'
 languageCode = "en"
 defaultContentLanguage = "en"
