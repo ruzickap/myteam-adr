@@ -1,0 +1,20 @@
+theme = 'lynx'
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "MyTeam ADR"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  links = [
+    # { email = "mailto:petr.ruzicka@gmail.com" },
+    { link = { href = "https://ruzickap.github.io/myteam-adr/log4brains/", text = "Log4brains" } },
+    { link = { href = "https://ruzickap.github.io/myteam-adr/madr/", text = "Markdown Any Decision Records (MADR)" } },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
