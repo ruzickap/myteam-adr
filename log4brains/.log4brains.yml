@@ -1,7 +1,7 @@
 project:
   name: MyTeam
   tz: UTC
-  adrFolder: ./docs/adr-log4brains
+  adrFolder: ./docs
   packages: []
   repository:
     viewFileUriPattern: /blob/main/%path

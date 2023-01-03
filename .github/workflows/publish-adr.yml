@@ -6,6 +6,10 @@ on:
       - .github/workflows/publish-adr.yml
       - docs/**
 
+env:
+  # renovate: datasource=github-tags depName=gohugoio/hugo
+  HUGO_VERSION: 0.105.0
+
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
@@ -14,23 +18,43 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # required by Log4brains to work correctly (needs the whole Git history)
+          submodules: true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
 
       - name: Install Node
         uses: actions/setup-node@v3
         with:
           node-version: "16"
 
+      - name: Prepare public directory
+        run: |
+          set -euxo pipefail
+          mkdir gh-pages
+          cp LICENSE README.md gh-pages/
+
+      - name: Build hugo pages
+        run: |
+          hugo --gc --destination gh-pages
+
       - name: Install and Build Log4brains
         run: |
           npm install -g log4brains
           mkdir -pv gh-pages/log4brains
-          log4brains build --basePath "/${GITHUB_REPOSITORY#*/}/log4brains" --out gh-pages/log4brains
+          cd log4brains
+          log4brains build --basePath "/${GITHUB_REPOSITORY#*/}/log4brains" --out ../gh-pages/log4brains
 
       - name: Build MADR
         uses: helaili/jekyll-action@v2
         with:
-          build_dir: gh-pages/madr
+          jekyll_src: madr
           build_only: true
+          build_dir: gh-pages/madr
+          target_path: madr
+          jekyll_build_options: --baseurl /madr/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
