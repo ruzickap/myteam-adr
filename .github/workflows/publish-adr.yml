@@ -10,6 +10,8 @@ env:
   # renovate: datasource=github-tags depName=gohugoio/hugo
   HUGO_VERSION: 0.111.2
 
+permissions: read-all
+
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
