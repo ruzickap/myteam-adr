@@ -10,14 +10,12 @@
       "ignoreTests": true,
       "automerge": true,
     },
-
     {
       "description": "Ignore frequent renovate updates",
       "matchPackageNames": ["renovatebot/github-action"],
       "matchUpdateTypes": ["patch"],
       "enabled": false
     },
-
     {
       "matchPackageNames": ["renovatebot/github-action"],
       "matchUpdateTypes": ["minor"],
@@ -32,9 +30,14 @@
       "automergeType": "branch",
       "automerge": true,
     },
+    {
+      "matchManagers": ["git-submodules"],
+      "matchUpdateTypes": ["digest"],
+      "automerge": true,
+      "automergeType": "branch",
+    },
   ],
   "prBodyTemplate": "{{{table}}}{{{notes}}}{{{changelogs}}}",
-  "concurrentRequestLimit": 20,
   "rebaseWhen": "behind-base-branch",
   "regexManagers": [
     {
@@ -49,5 +52,8 @@
       "extractVersionTemplate": "{{#if extractVersion}}{{{extractVersion}}}{{else}}^v?(?<version>.+)${{/if}}",
     },
   ],
+  "git-submodules": {
+    "enabled": true
+  },
   "separateMinorPatch": true,
 }
