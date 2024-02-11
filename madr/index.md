@@ -11,28 +11,31 @@ The template originated from capturing architectural decisions and developed to 
 <!-- markdownlint-disable-next-line MD036-->
 **Note that this documentation describes [MADR 3.0.0-beta](https://github.com/adr/madr/blob/main/CHANGELOG.md#300-beta--2022-05-17) and might not apply to earlier released versions**
 
-* [News](#news)
-* [Overview](#overview)
-* [Example](#example)
-* [Applying MADR to your project](#applying-madr-to-your-project)
-  * [Initialization](#initialization)
-  * [Create a new ADR](#create-a-new-adr)
-  * [Lint ADRs](#lint-adrs)
-* [Using MADR in large projects and product developments](#using-madr-in-large-projects-and-product-developments)
-  * [Usage of categories](#usage-of-categories)
-* [License](#license)
+- [Markdown Any Decision Records](#markdown-any-decision-records-)
+  - [News](#news)
+  - [Overview](#overview)
+  - [Example](#example)
+  - [Applying MADR to your project](#applying-madr-to-your-project)
+    - [Initialization](#initialization)
+    - [Create a new ADR](#create-a-new-adr)
+      - [Manual approach](#manual-approach)
+      - [Automatic approach](#automatic-approach)
+    - [Lint ADRs](#lint-adrs)
+  - [Using MADR in large projects and product developments](#using-madr-in-large-projects-and-product-developments)
+    - [Usage of categories](#usage-of-categories)
+  - [License](#license)
 
 ## News
 
-* 2022-05-17: Release of MADR 3.0.0-beta.
+- 2022-05-17: Release of MADR 3.0.0-beta.
   Besides improvement of the template, there was a renaming from "Markdown Architectural Decision Records" to "Markdown Any Decision Records" to follow the movement ["ADR = Any Decision Record? Architecture, Design and Beyond"](https://ozimmer.ch/practices/2021/04/23/AnyDecisionRecords.html).
   The acronym is still MADR.
-* 2021-04-25: MADR examples featured in Medium stories ["From Architectural Decisions to Design Decisions"](https://medium.com/olzzio/from-architectural-decisions-to-design-decisions-f05f6d57032b) and ["ADR = Any Decision Record?"](https://medium.com/olzzio/adr-any-decision-record-916d1b64b28d)
-* 2021-04-08: MADR recommended as an ADR format in "Design Practice Repository". This ebook is available on [Leanpub](https://leanpub.com/dpr). The decision capturing activity is also described [online](https://socadk.github.io/design-practice-repository/activities/DPR-ArchitecturalDecisionCapturing.html).
-* 2020-09-29: MADR presented in the keynote "Markdown Architectural Decision Records: Capturing Decisions Where the Developer is Working" at the workshop "[Second Software Documentation Generation Challenge (DocGen2)](https://dysdoc.github.io/docgen2/index.html)". Slides available at [Speaker Deck](https://speakerdeck.com/koppor/markdown-architecturaldecisionrecords-capturing-decisions-where-the-developer-is-working).
-* 2019-07-08: MADR referenced in [Architectural Decisions — The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html), a post in the new blog "The Concerned Architect" by Olaf Zimmermann (shorter version available on [Medium](https://medium.com/@docsoc/y-statements-10eb07b5a177)).
-* 2018-04-13: Mentioned in [@vanto](https://github.com/vanto)'s presentation about ADRs: <https://speakerdeck.com/vanto/a-brief-introduction-to-architectural-decision-records>.
-* 2018-04-03: Scientific publication: [Markdown Architectural Decision Records: Format and Tool Support](http://ceur-ws.org/Vol-2072/paper9.pdf).
+- 2021-04-25: MADR examples featured in Medium stories ["From Architectural Decisions to Design Decisions"](https://medium.com/olzzio/from-architectural-decisions-to-design-decisions-f05f6d57032b) and ["ADR = Any Decision Record?"](https://medium.com/olzzio/adr-any-decision-record-916d1b64b28d)
+- 2021-04-08: MADR recommended as an ADR format in "Design Practice Repository". This ebook is available on [Leanpub](https://leanpub.com/dpr). The decision capturing activity is also described [online](https://socadk.github.io/design-practice-repository/activities/DPR-ArchitecturalDecisionCapturing.html).
+- 2020-09-29: MADR presented in the keynote "Markdown Architectural Decision Records: Capturing Decisions Where the Developer is Working" at the workshop "[Second Software Documentation Generation Challenge (DocGen2)](https://dysdoc.github.io/docgen2/index.html)". Slides available at [Speaker Deck](https://speakerdeck.com/koppor/markdown-architecturaldecisionrecords-capturing-decisions-where-the-developer-is-working).
+- 2019-07-08: MADR referenced in [Architectural Decisions — The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html), a post in the new blog "The Concerned Architect" by Olaf Zimmermann (shorter version available on [Medium](https://medium.com/olzzio/y-statements-10eb07b5a177)).
+- 2018-04-13: Mentioned in [@vanto](https://github.com/vanto)'s presentation about ADRs: <https://speakerdeck.com/vanto/a-brief-introduction-to-architectural-decision-records>.
+- 2018-04-03: Scientific publication: [Markdown Architectural Decision Records: Format and Tool Support](http://ceur-ws.org/Vol-2072/paper9.pdf).
 
 ## Overview
 
@@ -105,9 +108,9 @@ As a consequence, some existing tooling might not be applicable.
 
 The filenames are following the pattern `NNNN-title-with-dashes.md`, where
 
-* `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
-* the title is stored using dashes and lowercase, because [adr-tools] also does that.
-* the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
+- `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
+- the title is stored using dashes and lowercase, because [adr-tools] also does that.
+- the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
 
 Decisions are placed in the subfolder `decisions/` to keep them close to the documentation but also separate the decisions from other documentation.
 

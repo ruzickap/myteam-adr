@@ -20,7 +20,7 @@ ADRs are recorded. The number of ADRs grows and the context/topic/scope of ADRs 
 ## Considered Options
 
 * Use labels
-* Add `* Category: CATEGORY` directly under the heading (similar to <https://gist.github.com/FaKeller/2f9c63b6e1d436abb7358b68bf396f57>)
+* Add `* Category: CATEGORY` directly under the heading
 * Use YAML front matter
 * Encode category in filename
 * Use subfolders with local IDs
@@ -35,7 +35,7 @@ Chosen option: "Use subfolders with local IDs", because comes out best (see belo
 
 ### Use labels
 
-Example:  
+Example:
 
 Use Angular ![category-frontend](https://img.shields.io/badge/category-frontend-blue.svg?style=flat-square)
 
