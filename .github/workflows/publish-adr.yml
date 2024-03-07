@@ -1,4 +1,4 @@
-name: Publish ADR
+name: publish-adr
 on:
   workflow_dispatch:
   push:
@@ -13,7 +13,7 @@ env:
 permissions: read-all
 
 jobs:
-  build-and-publish:
+  publish-adr:
     runs-on: ubuntu-latest
     permissions:
       contents: write
