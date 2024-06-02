@@ -8,7 +8,7 @@ on:
 
 env:
   # renovate: datasource=github-tags depName=gohugoio/hugo
-  HUGO_VERSION: 0.126.1
+  HUGO_VERSION: 0.126.2
 
 permissions: read-all
 
