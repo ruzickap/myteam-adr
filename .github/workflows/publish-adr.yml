@@ -52,11 +52,10 @@ jobs:
           log4brains build --basePath "/${GITHUB_REPOSITORY#*/}/log4brains" --out ../gh-pages/log4brains
 
       - name: Build MADR
-        uses: helaili/jekyll-action@v2
+        uses: actions/jekyll-build-pages@v1
         with:
-          jekyll_src: madr
-          build_only: true
-          build_dir: gh-pages/madr
+          source: madr
+          destination: gh-pages/madr
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e # v4.0.0
