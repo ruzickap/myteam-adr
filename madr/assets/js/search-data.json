@@ -1,0 +1,772 @@
+{"0": {
+    "doc": "Use Markdown Any Decision Records",
+    "title": "Use Markdown Any Decision Records",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0000-use-markdown-any-decision-records.html",
+    
+    "relUrl": "/docs/0000-use-markdown-any-decision-records.html"
+  },"1": {
+    "doc": "Use Markdown Any Decision Records",
+    "title": "Context and Problem Statement",
+    "content": "We want to record any decisions made in this project independent whether decisions concern the architecture (“architectural decision record”), the code, or other fields. Which format and structure should these records follow? . ",
+    "url": "/myteam-adr/madr/docs/0000-use-markdown-any-decision-records.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0000-use-markdown-any-decision-records.html#context-and-problem-statement"
+  },"2": {
+    "doc": "Use Markdown Any Decision Records",
+    "title": "Considered Options",
+    "content": ". | MADR 3.0.0-beta – The Markdown Any Decision Records | Michael Nygard’s template – The first incarnation of the term “ADR” | Sustainable Architectural Decisions – The Y-Statements | Other templates listed at https://github.com/joelparkerhenderson/architecture_decision_record | Formless – No conventions for file format and structure | . ",
+    "url": "/myteam-adr/madr/docs/0000-use-markdown-any-decision-records.html#considered-options",
+    
+    "relUrl": "/docs/0000-use-markdown-any-decision-records.html#considered-options"
+  },"3": {
+    "doc": "Use Markdown Any Decision Records",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “MADR 3.0.0-beta”, because . | Implicit assumptions should be made explicit. Design documentation is important to enable people understanding the decisions later on. See also A rational design process: How and why to fake it. | MADR allows for structured capturing of any decision. | The MADR format is lean and fits our development style. | The MADR structure is comprehensible and facilitates usage &amp; maintenance. | The MADR project is vivid. | . ",
+    "url": "/myteam-adr/madr/docs/0000-use-markdown-any-decision-records.html#decision-outcome",
+    
+    "relUrl": "/docs/0000-use-markdown-any-decision-records.html#decision-outcome"
+  },"4": {
+    "doc": "Dual License the Work",
+    "title": "Dual License the Work",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0001-use-CC0-or-MIT-as-license.html",
+    
+    "relUrl": "/docs/0001-use-CC0-or-MIT-as-license.html"
+  },"5": {
+    "doc": "Dual License the Work",
+    "title": "Context and Problem Statement",
+    "content": "Everything needs to be licensed, otherwise the default copyright laws apply. For instance, in Germany that means users may not alter anything without explicitly asking for permission. For more information see https://help.github.com/articles/licensing-a-repository. We want to have MADR used without any hassle and that users can just go ahead and write MADRs. ",
+    "url": "/myteam-adr/madr/docs/0001-use-CC0-or-MIT-as-license.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0001-use-CC0-or-MIT-as-license.html#context-and-problem-statement"
+  },"6": {
+    "doc": "Dual License the Work",
+    "title": "Considered Options",
+    "content": ". | CC0 | BSD3 | MIT | Dual license with MIT and CC0 | No license | Other open source licenses | . ",
+    "url": "/myteam-adr/madr/docs/0001-use-CC0-or-MIT-as-license.html#considered-options",
+    
+    "relUrl": "/docs/0001-use-CC0-or-MIT-as-license.html#considered-options"
+  },"7": {
+    "doc": "Dual License the Work",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Dual license”, because this lets users choose whether CC0 or MIT fits better on their work. ",
+    "url": "/myteam-adr/madr/docs/0001-use-CC0-or-MIT-as-license.html#decision-outcome",
+    
+    "relUrl": "/docs/0001-use-CC0-or-MIT-as-license.html#decision-outcome"
+  },"8": {
+    "doc": "Dual License the Work",
+    "title": "Pros and Cons of the Options",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0001-use-CC0-or-MIT-as-license.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/0001-use-CC0-or-MIT-as-license.html#pros-and-cons-of-the-options"
+  },"9": {
+    "doc": "Dual License the Work",
+    "title": "CC0",
+    "content": ". | Good, because this license donates the content to “public domain” and does so as legally as possible. | Bad, because it does not contain attribution - and attribution is important. | . ",
+    "url": "/myteam-adr/madr/docs/0001-use-CC0-or-MIT-as-license.html#cc0",
+    
+    "relUrl": "/docs/0001-use-CC0-or-MIT-as-license.html#cc0"
+  },"10": {
+    "doc": "Dual License the Work",
+    "title": "BSD3",
+    "content": ". | Bad, because it is unclear whether it can be used for documentation | . ",
+    "url": "/myteam-adr/madr/docs/0001-use-CC0-or-MIT-as-license.html#bsd3",
+    
+    "relUrl": "/docs/0001-use-CC0-or-MIT-as-license.html#bsd3"
+  },"11": {
+    "doc": "Dual License the Work",
+    "title": "MIT",
+    "content": ". | Good, because it explicitly may be used for documentation | Good, because it is lean. | . ",
+    "url": "/myteam-adr/madr/docs/0001-use-CC0-or-MIT-as-license.html#mit",
+    
+    "relUrl": "/docs/0001-use-CC0-or-MIT-as-license.html#mit"
+  },"12": {
+    "doc": "Dual License the Work",
+    "title": "Dual license with MIT and CC0",
+    "content": "With the SPDX identifier MIT OR CC0-1.0, the receiver of the documents can decide which license thay want to use. | Good, because offers freedom at the receiver | Bad, because dual licensing is not widely known | . ",
+    "url": "/myteam-adr/madr/docs/0001-use-CC0-or-MIT-as-license.html#dual-license-with-mit-and-cc0",
+    
+    "relUrl": "/docs/0001-use-CC0-or-MIT-as-license.html#dual-license-with-mit-and-cc0"
+  },"13": {
+    "doc": "Do Not Use Numbers in Headings",
+    "title": "Do Not Use Numbers in Headings",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0002-do-not-use-numbers-in-headings.html",
+    
+    "relUrl": "/docs/0002-do-not-use-numbers-in-headings.html"
+  },"14": {
+    "doc": "Do Not Use Numbers in Headings",
+    "title": "Context and Problem Statement",
+    "content": "How to render the first line in an ADR? ADRs have to take a unique identifier. ",
+    "url": "/myteam-adr/madr/docs/0002-do-not-use-numbers-in-headings.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0002-do-not-use-numbers-in-headings.html#context-and-problem-statement"
+  },"15": {
+    "doc": "Do Not Use Numbers in Headings",
+    "title": "Considered Options",
+    "content": ". | Use the title only | Add the ADR number in front of the title (e.g., “# 2. Do not use numbers in headings”) | . ",
+    "url": "/myteam-adr/madr/docs/0002-do-not-use-numbers-in-headings.html#considered-options",
+    
+    "relUrl": "/docs/0002-do-not-use-numbers-in-headings.html#considered-options"
+  },"16": {
+    "doc": "Do Not Use Numbers in Headings",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Use the title only”, because . | This is common in other Markdown files, too. One does not add numbering manually at the Markdown files, but tries to get the numbers injected by the rendering framework or CSS. | Enables renaming of ADRs (before publication) easily | Allows copy’n’paste of ADRs from other repositories without having to worry about the numbers. | . ",
+    "url": "/myteam-adr/madr/docs/0002-do-not-use-numbers-in-headings.html#decision-outcome",
+    
+    "relUrl": "/docs/0002-do-not-use-numbers-in-headings.html#decision-outcome"
+  },"17": {
+    "doc": "Write Own MADR Tooling",
+    "title": "Write Own MADR Tooling",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0003-provide-own-madr-tools.html",
+    
+    "relUrl": "/docs/0003-provide-own-madr-tools.html"
+  },"18": {
+    "doc": "Write Own MADR Tooling",
+    "title": "Context and Problem Statement",
+    "content": "Developers seem to like tooling to create ADRs. That tooling should support MADR. The tooling should be easy to install. ",
+    "url": "/myteam-adr/madr/docs/0003-provide-own-madr-tools.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0003-provide-own-madr-tools.html#context-and-problem-statement"
+  },"19": {
+    "doc": "Write Own MADR Tooling",
+    "title": "Considered Options",
+    "content": ". | Include in adr-tools, 924 stars as of 2018-06-14 | Include in adr-j, 2 stars as of 2018-06-14 | Include in adr, 72 stars as of 2018-06-14 | Write own MADR tooling | No tool support | . ",
+    "url": "/myteam-adr/madr/docs/0003-provide-own-madr-tools.html#considered-options",
+    
+    "relUrl": "/docs/0003-provide-own-madr-tools.html#considered-options"
+  },"20": {
+    "doc": "Write Own MADR Tooling",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Write own MADR tooling”, because . | adding MADR support to adr-tools was rejected | other tooling seem to a) modify MADR or b) do not keep up with changes on MADR. | . We accept that this comes with maintenance cost. ",
+    "url": "/myteam-adr/madr/docs/0003-provide-own-madr-tools.html#decision-outcome",
+    
+    "relUrl": "/docs/0003-provide-own-madr-tools.html#decision-outcome"
+  },"21": {
+    "doc": "Write Own MADR Tooling",
+    "title": "More Information",
+    "content": "An overview on current tooling of MADR is available at https://adr.github.io/madr/tooling.html. ",
+    "url": "/myteam-adr/madr/docs/0003-provide-own-madr-tools.html#more-information",
+    
+    "relUrl": "/docs/0003-provide-own-madr-tools.html#more-information"
+  },"22": {
+    "doc": "Write Own TOC Tool",
+    "title": "Write Own TOC Tool",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0004-write-own-toc-tool.html",
+    
+    "relUrl": "/docs/0004-write-own-toc-tool.html"
+  },"23": {
+    "doc": "Write Own TOC Tool",
+    "title": "Context and Problem Statement",
+    "content": "ADRs have to be indexed somehow. E.g., for offering a site showing all ADRs. ",
+    "url": "/myteam-adr/madr/docs/0004-write-own-toc-tool.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0004-write-own-toc-tool.html#context-and-problem-statement"
+  },"24": {
+    "doc": "Write Own TOC Tool",
+    "title": "Considered Options",
+    "content": ". | Write the own tool adr-log | Use adr-tools’ TOC functionality | . ",
+    "url": "/myteam-adr/madr/docs/0004-write-own-toc-tool.html#considered-options",
+    
+    "relUrl": "/docs/0004-write-own-toc-tool.html#considered-options"
+  },"25": {
+    "doc": "Write Own TOC Tool",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Write own tool adr-log”, because . | we want to have the format ADR-0001 - Title in the TOC. | adr-tools offers title only. | . We accept that changing adr-tools would also be possible. It is prepared to included header and footer: https://github.com/npryce/adr-tools/blob/master/tests/generate-contents-with-header-and-footer.sh. Positive Consequences . | adr-log is installable using npm install -g adr-log, which is easier than installing adr-tools. | . Negative consequences . | Another tool has to be maintained | . ",
+    "url": "/myteam-adr/madr/docs/0004-write-own-toc-tool.html#decision-outcome",
+    
+    "relUrl": "/docs/0004-write-own-toc-tool.html#decision-outcome"
+  },"26": {
+    "doc": "Use Dashes in Filenames",
+    "title": "Use Dashes in Filenames",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0005-use-dashes-in-filenames.html",
+    
+    "relUrl": "/docs/0005-use-dashes-in-filenames.html"
+  },"27": {
+    "doc": "Use Dashes in Filenames",
+    "title": "Context and Problem Statement",
+    "content": "What is the pattern of the filename where an ADR is stored? . ",
+    "url": "/myteam-adr/madr/docs/0005-use-dashes-in-filenames.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0005-use-dashes-in-filenames.html#context-and-problem-statement"
+  },"28": {
+    "doc": "Use Dashes in Filenames",
+    "title": "Considered Options",
+    "content": ". | NNNN-title-with-dashes.md - format used by adr-tools | YYYY-MM-DD Title - see https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions | . ",
+    "url": "/myteam-adr/madr/docs/0005-use-dashes-in-filenames.html#considered-options",
+    
+    "relUrl": "/docs/0005-use-dashes-in-filenames.html#considered-options"
+  },"29": {
+    "doc": "Use Dashes in Filenames",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “NNNN-title-with-dashes.md”, because . | NNNN provides a unique number, which can be used for referencing in the forms . | ADR-0001 in plain text and | by @ADR(1) Java code (enabled by e-adr) | . | The creation time of an ADR is of historical interest only, if it gets updated somehow. The arguments are similar than the ones by Does Git have keyword expansion? | Having no spaces in filenames eases working in the command-line | This is exactly the format offered by adr-tools | . ",
+    "url": "/myteam-adr/madr/docs/0005-use-dashes-in-filenames.html#decision-outcome",
+    
+    "relUrl": "/docs/0005-use-dashes-in-filenames.html#decision-outcome"
+  },"30": {
+    "doc": "Use Names as Identifier",
+    "title": "Use Names as Identifier",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0006-use-names-as-identifier.html",
+    
+    "relUrl": "/docs/0006-use-names-as-identifier.html"
+  },"31": {
+    "doc": "Use Names as Identifier",
+    "title": "Context and Problem Statement",
+    "content": "An option is listed at “Considered Options” and repeated at “Pros and Cons of the Options”. Finally, the chosen option is stated at “Decision Outcome”. ",
+    "url": "/myteam-adr/madr/docs/0006-use-names-as-identifier.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0006-use-names-as-identifier.html#context-and-problem-statement"
+  },"32": {
+    "doc": "Use Names as Identifier",
+    "title": "Decision Drivers",
+    "content": ". | Easy to read | Easy to write | Avoid copy and paste errors | . ",
+    "url": "/myteam-adr/madr/docs/0006-use-names-as-identifier.html#decision-drivers",
+    
+    "relUrl": "/docs/0006-use-names-as-identifier.html#decision-drivers"
+  },"33": {
+    "doc": "Use Names as Identifier",
+    "title": "Considered Options",
+    "content": ". | Repeat all option names if they occur | Assign an identifier to an option, e.g., [A] Use gradle as build tool | . ",
+    "url": "/myteam-adr/madr/docs/0006-use-names-as-identifier.html#considered-options",
+    
+    "relUrl": "/docs/0006-use-names-as-identifier.html#considered-options"
+  },"34": {
+    "doc": "Use Names as Identifier",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Repeat all option names if they occur”, because 1) there is no Markdown standard for identifiers, 2) the document is harder to read if there are multiple options which must be remembered. ",
+    "url": "/myteam-adr/madr/docs/0006-use-names-as-identifier.html#decision-outcome",
+    
+    "relUrl": "/docs/0006-use-names-as-identifier.html#decision-outcome"
+  },"35": {
+    "doc": "Do Not Emphasize Line Headings",
+    "title": "Do Not Emphasize Line Headings",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0007-do-not-emphasize-line-headings.html",
+    
+    "relUrl": "/docs/0007-do-not-emphasize-line-headings.html"
+  },"36": {
+    "doc": "Do Not Emphasize Line Headings",
+    "title": "Context and Problem Statement",
+    "content": "MADR contains lines such as Chosen option: \"[option 1]\". Should “Chosen option” be emphasized? . ",
+    "url": "/myteam-adr/madr/docs/0007-do-not-emphasize-line-headings.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0007-do-not-emphasize-line-headings.html#context-and-problem-statement"
+  },"37": {
+    "doc": "Do Not Emphasize Line Headings",
+    "title": "Decision Drivers",
+    "content": ". | MADR should be easy to read | MADR should be easy to write | . ",
+    "url": "/myteam-adr/madr/docs/0007-do-not-emphasize-line-headings.html#decision-drivers",
+    
+    "relUrl": "/docs/0007-do-not-emphasize-line-headings.html#decision-drivers"
+  },"38": {
+    "doc": "Do Not Emphasize Line Headings",
+    "title": "Considered Options",
+    "content": ". | Do not emphasize line headings | Emphasize line headings | . ",
+    "url": "/myteam-adr/madr/docs/0007-do-not-emphasize-line-headings.html#considered-options",
+    
+    "relUrl": "/docs/0007-do-not-emphasize-line-headings.html#considered-options"
+  },"39": {
+    "doc": "Do Not Emphasize Line Headings",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Do not emphasize line headings”, because 1) these headings always are put at the beginning of a line and followed by a colon. Thus, they are already easy to identified as line heading. 2) Readers not familiar with Markdown might be confused by stars in the text. ",
+    "url": "/myteam-adr/madr/docs/0007-do-not-emphasize-line-headings.html#decision-outcome",
+    
+    "relUrl": "/docs/0007-do-not-emphasize-line-headings.html#decision-outcome"
+  },"40": {
+    "doc": "Add Status Field",
+    "title": "Add Status Field",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0008-add-status-field.html",
+    
+    "relUrl": "/docs/0008-add-status-field.html"
+  },"41": {
+    "doc": "Add Status Field",
+    "title": "Context and Problem Statement",
+    "content": "Technical Story: https://github.com/adr/madr/issues/2 . ADRs have a status. Should this be tracked? And if it should, how should we track it? . ",
+    "url": "/myteam-adr/madr/docs/0008-add-status-field.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0008-add-status-field.html#context-and-problem-statement"
+  },"42": {
+    "doc": "Add Status Field",
+    "title": "Considered Options",
+    "content": ". | Use YAML front matter | Use badge | Use text line | Use separate heading | Use table | Do not add status | . ",
+    "url": "/myteam-adr/madr/docs/0008-add-status-field.html#considered-options",
+    
+    "relUrl": "/docs/0008-add-status-field.html#considered-options"
+  },"43": {
+    "doc": "Add Status Field",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Use YAML front matter”, because comes out best (see below). ",
+    "url": "/myteam-adr/madr/docs/0008-add-status-field.html#decision-outcome",
+    
+    "relUrl": "/docs/0008-add-status-field.html#decision-outcome"
+  },"44": {
+    "doc": "Add Status Field",
+    "title": "Pros and Cons of the Options",
+    "content": "Use YAML front matter . Example: . --- parent: Decisions nav_order: 3 status: on hold --- # Write own MADR tooling . | Good, because YAML front matter is supported by most Markdown parsers | . Use badge . Examples . | | [] | . | Good, because plain Markdown | Good, because looks good | Bad, because hard to read in Markdown source | Bad, because relies on the online service https://shields.io or local badges have to be generated | Bad, because at local usages, many badges have to be generated (superseeded-by-ADR-0006, for each ADR number) | Bad, because not easy to write | . Use text line . Example: Status: Accepted . | Good, because plain Markdown | Good, because easy to read | Good, because easy to write | Good, because looks OK in both Markdown-source (MD) and in rendered versions (HTML, PDF) | Good, because no dependencies on external tools | Good, because single line indicates the current state | Bad, because “Status” line needs to be maintained | Bad, because uses space at the beginning. When users read MADR, they should directly dive into the context and problem and not into the status | . Use separate heading . Example: . | Good, because plain Markdown | Good, because easy to write | Bad, because it uses much space: At least three lines: heading, status, separating empty line | . Use table . Example: . | Good, because history can be included | Good, because multiple entries can be made | Good, because already implemented in adr-tools fork | Bad, because not covered by the CommonMark specification 0.28 (2017-08-01) | Bad, because hard to read | Bad, because outdated entries cannot be easily identified | Bad, because needs more Markdown training | . Do not add status . | Good, because MADR is kept lean | Bad, because users demand state field | Bad, because not in line with other ADR templates | . ",
+    "url": "/myteam-adr/madr/docs/0008-add-status-field.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/0008-add-status-field.html#pros-and-cons-of-the-options"
+  },"45": {
+    "doc": "Add Status Field",
+    "title": "More Information",
+    "content": "See ADR-0013 for more reasoning on using YAML front matter. ",
+    "url": "/myteam-adr/madr/docs/0008-add-status-field.html#more-information",
+    
+    "relUrl": "/docs/0008-add-status-field.html#more-information"
+  },"46": {
+    "doc": "Support Links To Other ADRs Inside an ADR",
+    "title": "Support Links To Other ADRs Inside an ADR",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0009-support-links-between-adrs-inside-an-adrs.html",
+    
+    "relUrl": "/docs/0009-support-links-between-adrs-inside-an-adrs.html"
+  },"47": {
+    "doc": "Support Links To Other ADRs Inside an ADR",
+    "title": "Context and Problem Statement",
+    "content": "A decision might point to another decision. For instance, if a decision is a follow-up to another decision. This should be supported by MADR, too. Technical Story: https://github.com/adr/madr/issues/9 . ",
+    "url": "/myteam-adr/madr/docs/0009-support-links-between-adrs-inside-an-adrs.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0009-support-links-between-adrs-inside-an-adrs.html#context-and-problem-statement"
+  },"48": {
+    "doc": "Support Links To Other ADRs Inside an ADR",
+    "title": "Considered Options",
+    "content": ". | Include in section “More Information” | Use tables | Use heading together with a bullet list directly after status | Use heading together with a bullet list directly after “Decision Outcome” | Use heading together with a bullet list at the end | Do not add links | . ",
+    "url": "/myteam-adr/madr/docs/0009-support-links-between-adrs-inside-an-adrs.html#considered-options",
+    
+    "relUrl": "/docs/0009-support-links-between-adrs-inside-an-adrs.html#considered-options"
+  },"49": {
+    "doc": "Support Links To Other ADRs Inside an ADR",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Include in section ‘More Information’”, because comes out best (see below). ",
+    "url": "/myteam-adr/madr/docs/0009-support-links-between-adrs-inside-an-adrs.html#decision-outcome",
+    
+    "relUrl": "/docs/0009-support-links-between-adrs-inside-an-adrs.html#decision-outcome"
+  },"50": {
+    "doc": "Support Links To Other ADRs Inside an ADR",
+    "title": "Pros and Cons of the Options",
+    "content": "Include in section “More Information” . Example: . ## More Information [ADR-0008](/myteam-adr/madr/docs/0008-add-status-field.html) reasons on adding meta data (such as status). | Good, because provides freedom to the user | Bad, because parsing gets harder | . Use tables . | Good, because easy to write | Good, because history is shown (enabled by concept) | Good, because current adr-tools’ support uses tables to describe links. | Bad, because not supported by the CommonMark spec | Bad, because unclear whether a link was super seeded by another one | Bad, because valid links not clear at first sight (there might be outdated links shown) | . Use heading together with a bullet list directly after status . Example: . | Good, because easy to write | Good, because supported by the CommonMark spec | Bad, because not consistent with the status label (refs https://github.com/adr/madr/issues/2) | . Use heading together with a bullet list directly after “Decision Outcome” . | Good, because easy to write | Good, because supported by the CommonMark spec | Good, because the options are first introduced and then the links | Good, because consistent with position of “Decision Outcome” | Bad, because reader might get distracted: He might expect explanation of the options instead of links to something else | Bad, because not consistent with scientific papers, where related work and future work are coming after the discussion of the content. | . Use heading together with a bullet list at the end . | Good, because easy to write | Good, because supported by the CommonMark spec | Good, because the options and pros/cons are kept together with the option list. | Good, because consistent with pattern format | . Do not add links . | Good, because template stays minimal | . ",
+    "url": "/myteam-adr/madr/docs/0009-support-links-between-adrs-inside-an-adrs.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/0009-support-links-between-adrs-inside-an-adrs.html#pros-and-cons-of-the-options"
+  },"51": {
+    "doc": "Support Categories",
+    "title": "Support Categories",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0010-support-categories.html",
+    
+    "relUrl": "/docs/0010-support-categories.html"
+  },"52": {
+    "doc": "Support Categories",
+    "title": "Context and Problem Statement",
+    "content": "ADRs are recorded. The number of ADRs grows and the context/topic/scope of ADRs might be different (e.g., frontend, backend) . ",
+    "url": "/myteam-adr/madr/docs/0010-support-categories.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0010-support-categories.html#context-and-problem-statement"
+  },"53": {
+    "doc": "Support Categories",
+    "title": "Decision Drivers",
+    "content": ". | Easy to find groups ADRs in hundreds of ADRs | Easy to group | Easy to create | Good finding without external tooling | Keep newcomers in mind (should be doable in &lt;10 minutes) | Keep template lean | . ",
+    "url": "/myteam-adr/madr/docs/0010-support-categories.html#decision-drivers",
+    
+    "relUrl": "/docs/0010-support-categories.html#decision-drivers"
+  },"54": {
+    "doc": "Support Categories",
+    "title": "Considered Options",
+    "content": ". | Use labels | Add * Category: CATEGORY directly under the heading | Use YAML front matter | Encode category in filename | Use subfolders with local IDs | Use subfolders with global IDs | Don’t do it. | . ",
+    "url": "/myteam-adr/madr/docs/0010-support-categories.html#considered-options",
+    
+    "relUrl": "/docs/0010-support-categories.html#considered-options"
+  },"55": {
+    "doc": "Support Categories",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Use subfolders with local IDs”, because comes out best (see below). ",
+    "url": "/myteam-adr/madr/docs/0010-support-categories.html#decision-outcome",
+    
+    "relUrl": "/docs/0010-support-categories.html#decision-outcome"
+  },"56": {
+    "doc": "Support Categories",
+    "title": "Pros and Cons of the Options",
+    "content": "Use labels . Example: . Use Angular . ![category-frontend](https://img.shields.io/badge/category-frontend-blue.svg?style=flat-square) . | Good, because full Markdown | Good, because linking to an overview page is possible (using Markdown) | Bad, because not straight-forward to parse | Bad, because no simple filtering using ls or Windows Explorer is possible | . Add * Category: CATEGORY directly under the heading . | Good, because full Markdown | Good, because linking to an overview page is possible (using Markdown) | Good, because straight-forward to parse | Bad, because no simple filtering using ls or Windows Explorer is possible | . Use YAML front matter . Example: . --- category: frontend --- . | Good, because nearly straight-forward to parse | Good, because Jekyll supports it | Bad, because YAML front matter is not part of the CommonMarc Spec | Bad, because no simple filtering using ls or Windows Explorer is possible | . Encode category in filename . Example: 0050--frontend--title-with-dashes.md . | Good, because programmatic filtering is possible | Good, because ls -la | grep --category-- works | Bad, because plain file list in Windows explorer cannot be filtered | Bad, because as bad as TagSpaces, which stores the tags in the filenames in brackets. E.g., demo[demotag secondtag].md. | . Use subfolders with local IDs . Optionally “to-be-categorized” folder. One level of subfolder, not nested . Examples . | docs/decisions/smar/0000-secure-entities.md | docs/decisions/smar/0001-flexible-properties-selection.md | . Pros/cons . | Good, because grouping is done by folders (which are natural for grouping) | Good, because typos can easily be spotted | Bad, because there is no unique number identifying an ADR | Bad, because two indices have to be maintained (adr-log needs to be updated) | Bad, because e-adr needs to be adapted to @ADR(\"category\", number) (not that bad) | Bad, because when category is unknown it is hard to find the right folder | Bad, because using categories might be hampering newcomers | . Use subfolders with global IDs . Examples . | docs/decisions/smar/0005-secure-entities.md | docs/decisions/smar/0047-flexible-properties-selection.md | . ",
+    "url": "/myteam-adr/madr/docs/0010-support-categories.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/0010-support-categories.html#pros-and-cons-of-the-options"
+  },"57": {
+    "doc": "Use Asterisk as List Marker",
+    "title": "Use Asterisk as List Marker",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0011-use-asterisk-as-list-marker.html",
+    
+    "relUrl": "/docs/0011-use-asterisk-as-list-marker.html"
+  },"58": {
+    "doc": "Use Asterisk as List Marker",
+    "title": "Context and Problem Statement",
+    "content": "Lists in Markdown can be indicated by * (asterisk) or - (hyphen). ",
+    "url": "/myteam-adr/madr/docs/0011-use-asterisk-as-list-marker.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0011-use-asterisk-as-list-marker.html#context-and-problem-statement"
+  },"59": {
+    "doc": "Use Asterisk as List Marker",
+    "title": "Considered Options",
+    "content": ". | Use an asterisk | Use a hyphen | . ",
+    "url": "/myteam-adr/madr/docs/0011-use-asterisk-as-list-marker.html#considered-options",
+    
+    "relUrl": "/docs/0011-use-asterisk-as-list-marker.html#considered-options"
+  },"60": {
+    "doc": "Use Asterisk as List Marker",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Use an asterisk”, because an asterisk does not have a meaning of “good” or “bad”, whereas a hyphen - could be read as indicator of something negative (in contrast to +, which could be more be read as “good”). According to the Markdown Style Guide, an asterisk as list marker is more readable (see readability profile). ",
+    "url": "/myteam-adr/madr/docs/0011-use-asterisk-as-list-marker.html#decision-outcome",
+    
+    "relUrl": "/docs/0011-use-asterisk-as-list-marker.html#decision-outcome"
+  },"61": {
+    "doc": "Use Curly Brackets to Denote Placeholders",
+    "title": "Use Curly Brackets to Denote Placeholders",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0012-use-curly-brackets-to-denote-placeholder.html",
+    
+    "relUrl": "/docs/0012-use-curly-brackets-to-denote-placeholder.html"
+  },"62": {
+    "doc": "Use Curly Brackets to Denote Placeholders",
+    "title": "Context and Problem Statement",
+    "content": "When crafting an ADR placeholders need to be replaced by real values. How to mark the placeholders? . ",
+    "url": "/myteam-adr/madr/docs/0012-use-curly-brackets-to-denote-placeholder.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0012-use-curly-brackets-to-denote-placeholder.html#context-and-problem-statement"
+  },"63": {
+    "doc": "Use Curly Brackets to Denote Placeholders",
+    "title": "Considered Options",
+    "content": ". | Use curly braces | Use square brackets | Use less-than and greater-than | . ",
+    "url": "/myteam-adr/madr/docs/0012-use-curly-brackets-to-denote-placeholder.html#considered-options",
+    
+    "relUrl": "/docs/0012-use-curly-brackets-to-denote-placeholder.html#considered-options"
+  },"64": {
+    "doc": "Use Curly Brackets to Denote Placeholders",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Use curly braces”, because comes out best (see below). ",
+    "url": "/myteam-adr/madr/docs/0012-use-curly-brackets-to-denote-placeholder.html#decision-outcome",
+    
+    "relUrl": "/docs/0012-use-curly-brackets-to-denote-placeholder.html#decision-outcome"
+  },"65": {
+    "doc": "Use Curly Brackets to Denote Placeholders",
+    "title": "Pros and Cons of the Options",
+    "content": "Use curly braces . Example: {option 1}. | Good, because consistent to mustache templates. | Good, because no confusion with Markdown notation for links | . Use square brackets . Example: [option 1]. | Good, because used in MADR 1.x and MADR 2.x | Bad, because confusion with Markdown notation for links | Bad, because some users did not remove the brackets. Example: Date: [2021-03-12] or Good, because [user no longer activatess shortcut accidentally when entering task]. | . Use less-than and greater-than . Example: &lt;option 1&gt; . Idea taken from https://github.com/schubmat/DecisionCapture/blob/master/templates/captureTemplate_full.md . | Good, because kept in Markdown as is | Bad, because could be mixed up with an HTML element | . ",
+    "url": "/myteam-adr/madr/docs/0012-use-curly-brackets-to-denote-placeholder.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/0012-use-curly-brackets-to-denote-placeholder.html#pros-and-cons-of-the-options"
+  },"66": {
+    "doc": "Use YAML front matter for metadata",
+    "title": "Use YAML front matter for metadata",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0013-use-yaml-front-matter-for-meta-data.html",
+    
+    "relUrl": "/docs/0013-use-yaml-front-matter-for-meta-data.html"
+  },"67": {
+    "doc": "Use YAML front matter for metadata",
+    "title": "Context and Problem Statement",
+    "content": "MADR offers the fields “Status”, “Deciders”, and “Date”. These are a kind of metadata fields. Should this data be included in the ADR directly, or should it be separated somehow? . ",
+    "url": "/myteam-adr/madr/docs/0013-use-yaml-front-matter-for-meta-data.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0013-use-yaml-front-matter-for-meta-data.html#context-and-problem-statement"
+  },"68": {
+    "doc": "Use YAML front matter for metadata",
+    "title": "Decision Drivers",
+    "content": ". | Easy to read | Easy to write | . ",
+    "url": "/myteam-adr/madr/docs/0013-use-yaml-front-matter-for-meta-data.html#decision-drivers",
+    
+    "relUrl": "/docs/0013-use-yaml-front-matter-for-meta-data.html#decision-drivers"
+  },"69": {
+    "doc": "Use YAML front matter for metadata",
+    "title": "Considered Options",
+    "content": ". | Use YAML front matter | Use plain Markdown everywhere | . ",
+    "url": "/myteam-adr/madr/docs/0013-use-yaml-front-matter-for-meta-data.html#considered-options",
+    
+    "relUrl": "/docs/0013-use-yaml-front-matter-for-meta-data.html#considered-options"
+  },"70": {
+    "doc": "Use YAML front matter for metadata",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Use YAML front matter”, because comes out best (see below). ",
+    "url": "/myteam-adr/madr/docs/0013-use-yaml-front-matter-for-meta-data.html#decision-outcome",
+    
+    "relUrl": "/docs/0013-use-yaml-front-matter-for-meta-data.html#decision-outcome"
+  },"71": {
+    "doc": "Use YAML front matter for metadata",
+    "title": "Pros and Cons of the Options",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0013-use-yaml-front-matter-for-meta-data.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/0013-use-yaml-front-matter-for-meta-data.html#pros-and-cons-of-the-options"
+  },"72": {
+    "doc": "Use YAML front matter for metadata",
+    "title": "Use YAML front matter",
+    "content": "Example: . --- status: accepted deciders: date: --- ## Context and problem statement We want to record architectural decisions made in this project. Which format and structure should these records follow? . Rendered output: . | Good, because it shortens the body (essence of the ADR) | Good, because tools can handle it more easily | Good, because indicates the lower importance of the data | Bad, because pretends to be more accurate than it can be (e.g., possible status values) | Bad, because rendering not standardized | Bad, because not all Markdown parsers can parse it | . ",
+    "url": "/myteam-adr/madr/docs/0013-use-yaml-front-matter-for-meta-data.html#use-yaml-front-matter",
+    
+    "relUrl": "/docs/0013-use-yaml-front-matter-for-meta-data.html#use-yaml-front-matter"
+  },"73": {
+    "doc": "Use YAML front matter for metadata",
+    "title": "Use plain Markdown everywhere",
+    "content": ". | Good, because all parsers can handle it | Bad, because special Markdown parsing tooling is needed | Bad, because metadata is handled the same way as the content | . ",
+    "url": "/myteam-adr/madr/docs/0013-use-yaml-front-matter-for-meta-data.html#use-plain-markdown-everywhere",
+    
+    "relUrl": "/docs/0013-use-yaml-front-matter-for-meta-data.html#use-plain-markdown-everywhere"
+  },"74": {
+    "doc": "Use YAML front matter for metadata",
+    "title": "More Information",
+    "content": "ADR-0008 reasons on adding metadata (such as status). ",
+    "url": "/myteam-adr/madr/docs/0013-use-yaml-front-matter-for-meta-data.html#more-information",
+    
+    "relUrl": "/docs/0013-use-yaml-front-matter-for-meta-data.html#more-information"
+  },"75": {
+    "doc": "Allow “neutral” arguments",
+    "title": "Allow “neutral” arguments",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0014-allow-neutral-arguments.html",
+    
+    "relUrl": "/docs/0014-allow-neutral-arguments.html"
+  },"76": {
+    "doc": "Allow “neutral” arguments",
+    "title": "Context and Problem Statement",
+    "content": "Sometimes, one wants to write down an argument, which is neither pro nor con. ",
+    "url": "/myteam-adr/madr/docs/0014-allow-neutral-arguments.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0014-allow-neutral-arguments.html#context-and-problem-statement"
+  },"77": {
+    "doc": "Allow “neutral” arguments",
+    "title": "Considered Options",
+    "content": ". | Neutral, because … | OK, because … | Good/bad, because … | Interesting, because … | Indifferent, because … | . ",
+    "url": "/myteam-adr/madr/docs/0014-allow-neutral-arguments.html#considered-options",
+    
+    "relUrl": "/docs/0014-allow-neutral-arguments.html#considered-options"
+  },"78": {
+    "doc": "Allow “neutral” arguments",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Neutral, because …”, because . | it fits best. | it is consistent to patterns: +/0/- | . ",
+    "url": "/myteam-adr/madr/docs/0014-allow-neutral-arguments.html#decision-outcome",
+    
+    "relUrl": "/docs/0014-allow-neutral-arguments.html#decision-outcome"
+  },"79": {
+    "doc": "Allow “neutral” arguments",
+    "title": "Pros and Cons of the Options",
+    "content": "Neutral, because … . In the following, a full pro/con list is given: . Example: . | The proposed solution is good, because it resolves the force 1. | The proposed solution is good, because it addresses decision driver 2. | The proposed solution is good, because it mitigates the technical risk / dept with respect to decision driver 4. | The proposed solution is good, because it removes architectural smell … | The proposed solution is good, because it addresses stakeholder concern … | The proposed solution is good, because it has a positive effect on the performance (quality property). | The proposed solution is neutral, because it is indifferent to decision driver 2. | The proposed solution is bad, because it does not address decision driver 3. | The proposed solution is bad, because it has a negative effect on the maintainability (quality property). | . Shorter example for pros and cons: . | The proposed solution is good with respect to resolving the force 1. | The considered option is a good solution, because it resolves force1 and the non-resolving of force 1 is OK, … | . OK, because … . ### Bugsnag - Good, because it offers a Slack integration for faster feedback. - Good, because it offers a Github integration to link to possible commits and PRs. - Good, because it offers bot front-side/server-side/serverless error tracking. - OK, because it was ranked the **\\#5** as the best Javascript (client-side) error logging service in a community survey. - Bad, because it's expensive. (**\\$199/mo** for **450k events** and **15 collaborators**) - Bad, because it's pricing includes a fixed set of collaborators. ",
+    "url": "/myteam-adr/madr/docs/0014-allow-neutral-arguments.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/0014-allow-neutral-arguments.html#pros-and-cons-of-the-options"
+  },"80": {
+    "doc": "Include “Consulted” and “Informed” of RACI",
+    "title": "Include “Consulted” and “Informed” of RACI",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0015-include-consulting-informed-of-raci.html",
+    
+    "relUrl": "/docs/0015-include-consulting-informed-of-raci.html"
+  },"81": {
+    "doc": "Include “Consulted” and “Informed” of RACI",
+    "title": "Context and Problem Statement",
+    "content": "We noticed an intersection between MADR and RACI, and felt the need to add a “consulted” and “informed” field in addition to “deciders”. Would it be beneficial to “upstream” these fields to MADR? . MADR Issue: #62. ",
+    "url": "/myteam-adr/madr/docs/0015-include-consulting-informed-of-raci.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0015-include-consulting-informed-of-raci.html#context-and-problem-statement"
+  },"82": {
+    "doc": "Include “Consulted” and “Informed” of RACI",
+    "title": "Decision Drivers",
+    "content": ". | MADR should contain fields important to the ADR decision process | MADR template should be easy to understand | MADR should be lightweight | . ",
+    "url": "/myteam-adr/madr/docs/0015-include-consulting-informed-of-raci.html#decision-drivers",
+    
+    "relUrl": "/docs/0015-include-consulting-informed-of-raci.html#decision-drivers"
+  },"83": {
+    "doc": "Include “Consulted” and “Informed” of RACI",
+    "title": "Considered Options",
+    "content": ". | Include “Consulted” and “Informed” of RACI | Include all fields of RACI | Do not include anything of RACI | . ",
+    "url": "/myteam-adr/madr/docs/0015-include-consulting-informed-of-raci.html#considered-options",
+    
+    "relUrl": "/docs/0015-include-consulting-informed-of-raci.html#considered-options"
+  },"84": {
+    "doc": "Include “Consulted” and “Informed” of RACI",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Include ‘Consulted’ and ‘Informed’ of RACI”, because comes out best (see below). ",
+    "url": "/myteam-adr/madr/docs/0015-include-consulting-informed-of-raci.html#decision-outcome",
+    
+    "relUrl": "/docs/0015-include-consulting-informed-of-raci.html#decision-outcome"
+  },"85": {
+    "doc": "Include “Consulted” and “Informed” of RACI",
+    "title": "Pros and Cons of the Options",
+    "content": "Include “Consulted” and “Informed” of RACI . | Good, because these two roles of RACI are well understood. | Good, because we make these fields optional, thus it keeps MADR still lightweight. | Bad, because it adds two additional fields | . Include all fields of RACI . This would add “Responsible”, “Accountable”, “Consulted”, and “Informed” . | Good, because complete RACI would be included | Bad, because get confused about who is “accountable” and who is “responsible”. | Bad, because if decisions are mostly taken by consensus in small committees, then there might not be an “accountable” person. | . ",
+    "url": "/myteam-adr/madr/docs/0015-include-consulting-informed-of-raci.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/0015-include-consulting-informed-of-raci.html#pros-and-cons-of-the-options"
+  },"86": {
+    "doc": "Outcome before Detailed Pros and Cons",
+    "title": "Outcome before Detailed Pros and Cons",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/0016-outcome-before-detailed-pros-cons.html",
+    
+    "relUrl": "/docs/0016-outcome-before-detailed-pros-cons.html"
+  },"87": {
+    "doc": "Outcome before Detailed Pros and Cons",
+    "title": "Context and Problem Statement",
+    "content": "MADR aims to list pros and cons of each option. Where should that list be placed? . ",
+    "url": "/myteam-adr/madr/docs/0016-outcome-before-detailed-pros-cons.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/0016-outcome-before-detailed-pros-cons.html#context-and-problem-statement"
+  },"88": {
+    "doc": "Outcome before Detailed Pros and Cons",
+    "title": "Decision Drivers",
+    "content": ". | Most important information should be above the fold. | MADR should be easy to write. | MADR should be easy to read. | . ",
+    "url": "/myteam-adr/madr/docs/0016-outcome-before-detailed-pros-cons.html#decision-drivers",
+    
+    "relUrl": "/docs/0016-outcome-before-detailed-pros-cons.html#decision-drivers"
+  },"89": {
+    "doc": "Outcome before Detailed Pros and Cons",
+    "title": "Considered Options",
+    "content": ". | Section “Pros and Cons of the Options” after “Decision Outcome” | Section “Pros and Cons of the Options” before “Decision Outcome” | . ",
+    "url": "/myteam-adr/madr/docs/0016-outcome-before-detailed-pros-cons.html#considered-options",
+    
+    "relUrl": "/docs/0016-outcome-before-detailed-pros-cons.html#considered-options"
+  },"90": {
+    "doc": "Outcome before Detailed Pros and Cons",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “Section ‘Pros and Cons of the Options’ after ‘Decision Outcome’”, because this keeps the available options and the decision outcome close together. One gets the decision outcome above the fold and preserve a nice logical flow. Hence, one can see the “Pros and Cons” section as a sort of “appendix” to the considered options section. It is almost like the “Considered Options” section implies the following sentence: “For a more detailed analysis of these options, refer to pros and cons”. ",
+    "url": "/myteam-adr/madr/docs/0016-outcome-before-detailed-pros-cons.html#decision-outcome",
+    
+    "relUrl": "/docs/0016-outcome-before-detailed-pros-cons.html#decision-outcome"
+  },"91": {
+    "doc": "Outcome before Detailed Pros and Cons",
+    "title": "Pros and Cons of the Options",
+    "content": "Section “Pros and Cons of the Options” after “Decision Outcome” . Illustration: . ## Considered Options ... ## Decision Outcome ... ## Pros and Cons of the Options ... | Good, because this keeps the available options and the decision outcome close together. | Bad, because readers might be confused, because the logical flow broken: First comes the result, then the detailed arguments. | . Section “Pros and Cons of the Options” before “Decision Outcome” . Illustration: . ## Considered Options ... ## Pros and Cons of the Options ... ## Decision Outcome ... | Good, because the logical flow is kept | Bad, because the decision outcome is not close to the options | . ",
+    "url": "/myteam-adr/madr/docs/0016-outcome-before-detailed-pros-cons.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/0016-outcome-before-detailed-pros-cons.html#pros-and-cons-of-the-options"
+  },"92": {
+    "doc": "ADR Template",
+    "title": "{short title of solved problem and solution}",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/adr-template.html#short-title-of-solved-problem-and-solution",
+    
+    "relUrl": "/docs/adr-template.html#short-title-of-solved-problem-and-solution"
+  },"93": {
+    "doc": "ADR Template",
+    "title": "Context and Problem Statement",
+    "content": "{Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story. You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.} . ",
+    "url": "/myteam-adr/madr/docs/adr-template.html#context-and-problem-statement",
+    
+    "relUrl": "/docs/adr-template.html#context-and-problem-statement"
+  },"94": {
+    "doc": "ADR Template",
+    "title": "Decision Drivers",
+    "content": ". | {decision driver 1, e.g., a force, facing concern, …} | {decision driver 2, e.g., a force, facing concern, …} | … | . ",
+    "url": "/myteam-adr/madr/docs/adr-template.html#decision-drivers",
+    
+    "relUrl": "/docs/adr-template.html#decision-drivers"
+  },"95": {
+    "doc": "ADR Template",
+    "title": "Considered Options",
+    "content": ". | {title of option 1} | {title of option 2} | {title of option 3} | … | . ",
+    "url": "/myteam-adr/madr/docs/adr-template.html#considered-options",
+    
+    "relUrl": "/docs/adr-template.html#considered-options"
+  },"96": {
+    "doc": "ADR Template",
+    "title": "Decision Outcome",
+    "content": "Chosen option: “{title of option 1}”, because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}. Positive Consequences . | {e.g., improvement of one or more desired qualities, …} | … | . Negative Consequences . | {e.g., compromising one or more desired qualities, …} | … | . ",
+    "url": "/myteam-adr/madr/docs/adr-template.html#decision-outcome",
+    
+    "relUrl": "/docs/adr-template.html#decision-outcome"
+  },"97": {
+    "doc": "ADR Template",
+    "title": "Validation",
+    "content": "{describe how the implementation of/compliance with the ADR is validated. E.g., by a review or an ArchUnit test} . ",
+    "url": "/myteam-adr/madr/docs/adr-template.html#validation",
+    
+    "relUrl": "/docs/adr-template.html#validation"
+  },"98": {
+    "doc": "ADR Template",
+    "title": "Pros and Cons of the Options",
+    "content": "{title of option 1} . {example | description | pointer to more information | …} . | Good, because {argument a} | Good, because {argument b} | Neutral, because {argument c} | Bad, because {argument d} | … | . {title of other option} . | {example | description | pointer to more information | …} | . | Good, because {argument a} | Good, because {argument b} | Neutral, because {argument c} | Bad, because {argument d} | … | . ",
+    "url": "/myteam-adr/madr/docs/adr-template.html#pros-and-cons-of-the-options",
+    
+    "relUrl": "/docs/adr-template.html#pros-and-cons-of-the-options"
+  },"99": {
+    "doc": "ADR Template",
+    "title": "More Information",
+    "content": "{You might want to provide additional evidence/confidence for the decision outcome here and/or document the team agreement on the decision and/or define when this decision when and how the decision should be realized and if/when it should be re-visited and/or how the decision is validated. Links to other decisions and resources might here appear as well.} . ",
+    "url": "/myteam-adr/madr/docs/adr-template.html#more-information",
+    
+    "relUrl": "/docs/adr-template.html#more-information"
+  },"100": {
+    "doc": "ADR Template",
+    "title": "ADR Template",
+    "content": " ",
+    "url": "/myteam-adr/madr/docs/adr-template.html",
+    
+    "relUrl": "/docs/adr-template.html"
+  },"101": {
+    "doc": "Decisions",
+    "title": "Decisions",
+    "content": "Below, all any decision records for MADR are listed. This list uses the TOC functionality of the Just the Docs Jekyll template. For new ADRs, please use adr-template.md as basis. More information on MADR is available at https://adr.github.io/madr/. General information about architectural decision records is available at https://adr.github.io/. ",
+    "url": "/myteam-adr/madr/docs/",
+    
+    "relUrl": "/docs/"
+  },"102": {
+    "doc": "Markdown Any Decision Records",
+    "title": "Markdown Any Decision Records ",
+    "content": "“Markdown Any Decision Records” (MADR) [ˈmæɾɚ] – decisions that matter [ˈmæɾɚ]. MADR is a lean template to capture any decisions in a structured way. The template originated from capturing architectural decisions and developed to a template allowing to capture any decisions taken. Note that this documentation describes MADR 3.0.0-beta and might not apply to earlier released versions . | Markdown Any Decision Records . | News | Overview | Example | Applying MADR to your project . | Initialization | Create a new ADR . | Manual approach | Automatic approach | . | Lint ADRs | . | Using MADR in large projects and product developments . | Usage of categories | . | License | . | . ",
+    "url": "/myteam-adr/madr/#markdown-any-decision-records-",
+    
+    "relUrl": "/#markdown-any-decision-records-"
+  },"103": {
+    "doc": "Markdown Any Decision Records",
+    "title": "News",
+    "content": ". | 2022-05-17: Release of MADR 3.0.0-beta. Besides improvement of the template, there was a renaming from “Markdown Architectural Decision Records” to “Markdown Any Decision Records” to follow the movement “ADR = Any Decision Record? Architecture, Design and Beyond”. The acronym is still MADR. | 2021-04-25: MADR examples featured in Medium stories “From Architectural Decisions to Design Decisions” and “ADR = Any Decision Record?” | 2021-04-08: MADR recommended as an ADR format in “Design Practice Repository”. This ebook is available on Leanpub. The decision capturing activity is also described online. | 2020-09-29: MADR presented in the keynote “Markdown Architectural Decision Records: Capturing Decisions Where the Developer is Working” at the workshop “Second Software Documentation Generation Challenge (DocGen2)”. Slides available at Speaker Deck. | 2019-07-08: MADR referenced in Architectural Decisions — The Making Of, a post in the new blog “The Concerned Architect” by Olaf Zimmermann (shorter version available on Medium). | 2018-04-13: Mentioned in @vanto’s presentation about ADRs: https://speakerdeck.com/vanto/a-brief-introduction-to-architectural-decision-records. | 2018-04-03: Scientific publication: Markdown Architectural Decision Records: Format and Tool Support. | . ",
+    "url": "/myteam-adr/madr/#news",
+    
+    "relUrl": "/#news"
+  },"104": {
+    "doc": "Markdown Any Decision Records",
+    "title": "Overview",
+    "content": "An Architectural Decision (AD) is a software design choice that addresses a functional or non-functional requirement that is architecturally significant. This might, for instance, be a technology choice (e.g., Java vs. JavaScript), a choice of the IDE (e.g., IntelliJ vs. Eclipse IDE), a choice between a library (e.g., SLF4J vs java.util.logging), or a decision on features (e.g., infinite undo vs. limited undo). Do not take the term “architecture” too seriously or interpret it too strongly. As the examples illustrate, any decisions that might have an impact on the architecture somehow are architectural decisions. It should be as easy as possible to a) write down the decisions and b) to version the decisions. There are debates what is an architecturally-significant decision and which decisions are not architecturally significant. Since we believe that any (important) decision should be captured in a structured way, we offer the MADR template to capture any decision. This repository offers a solution to record any decisions. It provides files to document any decisions using Markdown and Any Decision Records. Before MADR 3.0.0, “MADR” stood for Markdown and Architectural Decision Records. Since MADR 3.0.0, “Architectural” was replaced by “Any”. ",
+    "url": "/myteam-adr/madr/#overview",
+    
+    "relUrl": "/#overview"
+  },"105": {
+    "doc": "Markdown Any Decision Records",
+    "title": "Example",
+    "content": "# Use Plain JUnit5 for advanced test assertions ## Context and Problem Statement How to write readable test assertions? How to write readable test assertions for advanced tests? ## Considered Options * Plain JUnit5 * Hamcrest * AssertJ ## Decision Outcome Chosen option: \"Plain JUnit5\", because it is a standard framework and the features of the other frameworks do not outweigh the drawbrack of adding a new dependency. Their source can be found at https://github.com/adr/madr/tree/main/docs/decisions. The latest release of the full template (with placeholders and some guidance how to use) can be found at https://github.com/adr/madr/blob/3.0.0-beta.2/docs/decisions/adr-template.md. For the brave, the version under development is available at https://github.com/adr/madr/blob/main/template/adr-template.md. There also is a CHANGELOG listing the changes between the last released version and the currently developed version. ",
+    "url": "/myteam-adr/madr/#example",
+    
+    "relUrl": "/#example"
+  },"106": {
+    "doc": "Markdown Any Decision Records",
+    "title": "Applying MADR to your project",
+    "content": "Initialization . Create folder docs/decisions in your project. Copy all files in template from the MADR project to the folder docs/decisions in your project. Using npm, this can be done using the following command: . npm install madr &amp;&amp; mkdir -p docs/decisions &amp;&amp; cp node_modules/madr/template/* docs/decisions/ . Create a new ADR . Manual approach . | Copy docs/decisions/adr-template.md to docs/decisions/NNNN-title-with-dashes.md, where NNNN indicates the next number in sequence. | Edit NNNN-title-with-dashes.md. | . Note you can also use other patterns for the directory format. As a consequence, some existing tooling might not be applicable. The filenames are following the pattern NNNN-title-with-dashes.md, where . | NNNN is a consecutive number and we assume that there won’t be more than 9,999 ADRs in one repository. | the title is stored using dashes and lowercase, because [adr-tools] also does that. | the suffix is .md, because it is a Markdown file. | . Decisions are placed in the subfolder decisions/ to keep them close to the documentation but also separate the decisions from other documentation. Automatic approach . There is currently no tooling supporting MADR 3.0.0. Lint ADRs . ADRs are written using Markdown. Since Markdown allows many styles, formatting can be inconsistent. To notify about inconsistencies, markdownlint has been invented. There is an initial configuration for it at template/.markdownlint. You can use that configuration in a GitHub workflow. ",
+    "url": "/myteam-adr/madr/#applying-madr-to-your-project",
+    
+    "relUrl": "/#applying-madr-to-your-project"
+  },"107": {
+    "doc": "Markdown Any Decision Records",
+    "title": "Using MADR in large projects and product developments",
+    "content": "Large projects may accumulate hundreds of decision records over time, and finding them might be hard. MADR does not enforce any repository or directory organization structure. Some proposals from the community are presented in the following. Usage of categories . MADR logs may be categorized ADRs by defining sub directories and put the ADRs into these folders. An examplary folder structure might follow the architectural structure of the system under construction: . `-- decisions |-- backend |-- 0001-use-quarkus.md `-- ui `-- 0001-use-vuejs.md . This approach makes all categories explicit because the sub directory/folder names define the categories. As a consequence, numbers of ADRs are no longer unique throughout the repository, but locally within a category only. Ideally, the ADR categorization the same organizing principles as other artifacts such as the code; using architectural structur breakdown is just one option and functional decomposition would be an additional one. This comes down to a meta-decision to be made rather early on. Note that alternatives to categorization via subfolders are discussed at ADR-0010. ",
+    "url": "/myteam-adr/madr/#using-madr-in-large-projects-and-product-developments",
+    
+    "relUrl": "/#using-madr-in-large-projects-and-product-developments"
+  },"108": {
+    "doc": "Markdown Any Decision Records",
+    "title": "License",
+    "content": "This work is dual-licensed under MIT and CC0. You can choose between one of them if you use this work. SPDX-License-Identifier: MIT OR CC0-1.0 . ",
+    "url": "/myteam-adr/madr/#license",
+    
+    "relUrl": "/#license"
+  },"109": {
+    "doc": "Markdown Any Decision Records",
+    "title": "Markdown Any Decision Records",
+    "content": " ",
+    "url": "/myteam-adr/madr/",
+    
+    "relUrl": "/"
+  }
+}
